@@ -17,6 +17,13 @@ const Hero = () => {
                                 <h2 className='pb-4 text-2xl font-semibold text-black pt-8'>{obj.title}</h2>
                                 <p className='font-light text-base pb-2'>{obj.description}</p>
                                 <a className='text-red-500 ' href="/">Read more</a>
+                                <ul className='list-disc pl-5 pt-4'>
+                                    {obj.CONTENT.map((contentItem, contentIndex) => (
+                                        <li key={contentIndex} className='font-light text-base'>
+                                             {contentItem.LIST_ITEMS}
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         ))
                     }

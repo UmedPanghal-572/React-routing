@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../common/Header'
-import Hero from '../Hero'
+import Header from '../components/common/Header'
+import LoremCards from '../components/LoremCards'
 
 const HomePage = () => {
     return (
         <div>
             <Header />
-            <Hero/>
+            <LoremCards />
         </div>
     )
 }
