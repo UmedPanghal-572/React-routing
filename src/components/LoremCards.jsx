@@ -1,6 +1,6 @@
 import React from 'react'
 import { CARDS_LIST } from '../utils/helper'
-import icon from '../assets/image/svg/lorem-icon.svg'
+import icon from '../assets/images/svg/lorem-icon.svg'
 
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
                     {
                         CARDS_LIST.map((obj, index) => (
                             <div key={index} className='rounded-[22px] bg-[#fff3ed] py-5 px-[30px]'>
-                                <img src={icon} alt="" />
+                                <img src={icon} alt="icon" />
                                 <h2 className='pb-4 text-2xl font-semibold text-black pt-8'>{obj.title}</h2>
                                 <p className='font-light text-base pb-2'>{obj.description}</p>
                                 <a className='text-red-500 ' href="/">Read more</a>
