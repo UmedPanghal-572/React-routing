@@ -5,8 +5,8 @@ import LoremCards from '../components/LoremCards'
 const HomePage = () => {
     return (
         <div>
-            <Header />
-            <LoremCards />
+            <Header/>
+            <LoremCards/>
         </div>
     )
 }

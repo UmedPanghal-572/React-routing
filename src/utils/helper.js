@@ -24,20 +24,20 @@ export const CARDS_LIST = [
         ]
     },
 ]
-export const FOOTER_LINKS = [
-    {
-        heading: "About website",
-        links_1: "Home",
-        links_2: "About us",
-        links_3: "Testimonials",
-        links_4: "Why Choose Us",
-    },
-    {
-        heading: "Follow links",
-        links_1: "Instagram",
-        links_2: "Twitter",
-        links_3: "Discord",
-        links_4: "You Tube",
-    },
+// export const FOOTER_LINKS = [
+//     {
+//         heading: "About website",
+//         links_1: "Home",
+//         links_2: "About us",
+//         links_3: "Testimonials",
+//         links_4: "Why Choose Us",
+//     },
+//     {
+//         heading: "Follow links",
+//         links_1: "Instagram",
+//         links_2: "Twitter",
+//         links_3: "Discord",
+//         links_4: "You Tube",
+//     },
 
-]
+// ]
