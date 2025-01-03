@@ -8,6 +8,36 @@
   font-family: "Montserrat", serif;
 }
 
-.bg-header {
-  background: linear-gradient(107.6deg, #FF5501 8.81%, #B1106F 163.48%);
+.slick-track {
+  display: flex !important;
+  gap: 30px;
+}
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.custom-prev {
+  left: -50px ;
+}
+
+.custom-next {
+  right: -50px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 31px !important;
+  height: 9px !important;
+  border-radius: 24.44px !important;
+}
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 41px !important;
 }
