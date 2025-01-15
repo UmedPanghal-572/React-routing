@@ -86,6 +86,7 @@ const Hero = () => {
                         pagination={{ clickable: true }}
                         modules={[Pagination]}
                         className="mySwiper"
+                        
                         style={{
                             "--swiper-pagination-color": "#43BBFF",
                             "--swiper-pagination-bullet-inactive-color": "#43BBFF6E",
@@ -93,6 +94,7 @@ const Hero = () => {
                             "--swiper-pagination-bullet-size": "11px",
                             "--swiper-pagination-bullet-horizontal-gap": "5px"
                         }}
+                        speed={1500} 
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,
