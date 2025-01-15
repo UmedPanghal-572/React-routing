@@ -15,6 +15,9 @@ module.exports = {
       height: {
         '800': '800px',
       },
+      boxShadow: {
+        'custom': '5px 7px 19px -5px #00000026',
+      },
     },
   },
   plugins: [],

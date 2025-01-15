@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import EmailJs from './view/EmailJs';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<About />} />
+        <Route path='/email' element={<EmailJs/>} />
       </Routes>
     </BrowserRouter>
   );
